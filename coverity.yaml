@@ -8,5 +8,10 @@ analyze:
   # location
 
   checkers:
+    all-security: true
+    audit: true
+    distrust-all: true
+    sigma:
+      enable-check-set: ["all"]
     webapp-security:
       enabled: true
