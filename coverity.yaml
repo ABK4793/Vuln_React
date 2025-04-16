@@ -1,0 +1,12 @@
+capture:
+  build-command-inference: false
+  # build:
+  #   clean-command: mvn -B clean
+  #   build-command: mvn -B -DskipTests package
+analyze:
+  aggressiveness-level: high
+  # location
+
+  checkers:
+    webapp-security:
+      enabled: true
