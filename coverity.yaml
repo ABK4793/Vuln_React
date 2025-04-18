@@ -1,5 +1,8 @@
 capture:
   build-command-inference: false
+
+  files:
+    exclude-regex: ".*/Movie.*\\.js"
   # build:
   #   clean-command: mvn -B clean
   #   build-command: mvn -B -DskipTests package
